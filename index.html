@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Matikkapeli</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Matikkapeli</h3>
+        <div>
+            <output id="num1"></output>&nbsp;+&nbsp;
+            <output id="num2"></output>&nbsp;=&nbsp;
+            <input type="number" id="answer">
+        </div>
+        <div>
+            <button type="button" id="calculate">Vastaus</button>
+        </div>
+        <div class="result" id="feedback"></div>
+        <div class="counter">
+            <p>Oikein: <span id="correct">0</span></p>
+            <p>Väärin: <span id="incorrect">0</span></p>
+        </div>
+    </div>
+    <script src="./javascript/functions.js"></script>
+</body>
+</html>
